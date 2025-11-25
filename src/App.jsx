@@ -11,7 +11,7 @@ function App() {
       <AddNote setNotes={setNotes} notes={notes} />
 
       {notes.length === 0 && (
-        <p className="text-center text-gray-500 mt-4">
+        <p className="text-center text-white mt-4 font-bold">
           No notes available. Please add a note.
         </p>
       )}
